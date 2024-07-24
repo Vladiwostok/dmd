@@ -51,7 +51,6 @@ subPackage {
 
   preGenerateCommands `
     "$${DUB_EXE}" \
-    --arch=$${DUB_ARCH} \
     --compiler=$${DC} \
     --single "$${DUB_PACKAGE_DIR}config.d" \
     -- "$${DUB_PACKAGE_DIR}generated/dub" \
